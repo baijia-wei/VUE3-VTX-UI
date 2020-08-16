@@ -5,6 +5,7 @@
       <li>菜单1</li>
       <li>菜单2</li>
     </ul>
+    <span class="toggleAside" @click="toggleMenu"></span>
   </div>
 </template>
 
@@ -23,14 +24,13 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.topnar {
-  border: 1px solid red;
-}
 .topnav {
   position: relative;
   z-index: 10;
-  background: pink;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  background: pink;
   padding: 16px;
   > .logo {
     max-width: 6em;
@@ -42,6 +42,27 @@ export default {
     flex-wrap: nowrap;
     > li {
       margin: 0 1em;
+    }
+  }
+  > .toggleAside {
+    width: 24px;
+    height: 24px;
+    background: red;
+    position: absolute;
+    left: 16px;
+    top: 12px;
+    display: none;
+    transform: translateX(-50%);
+  }
+  @media (max-width: 500px) {
+    > .menu {
+      display: none;
+    }
+    > .logo {
+      margin: 0 auto;
+    }
+    > .toggleAside {
+      display: inline-block;
     }
   }
 }
