@@ -1,6 +1,7 @@
 <template>
-  <div>
-    <Topnav />
+  <div class="layout">
+  
+    <Topnav class="nav"/>
     <div class="content">
       <aside v-if="menuVisible">
         <h2>组件列表</h2>
@@ -52,7 +53,7 @@ export default {
     padding-top: 60px;
     padding-left: 156px;
     @media (max-width: 500px) {
-      padding-left: 0;
+      padding-left: 0; 
     }
   }
 }

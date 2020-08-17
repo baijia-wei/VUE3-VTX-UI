@@ -1,34 +1,92 @@
 <template>
   <div>
-SwitchDemo文档
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
+    <p>Switch 的文档</p>
   </div>
 </template>
 
 <script>
 export default {
-  data () {
+  data() {
     return {
-      msg: ''
-    }
+      msg: "",
+    };
   },
-  created(){
-
-  },
-  mounted(){
-
-  },
-  methods: {
-
-  } ,
- computed:{
-
-  },
- watch:{
-
-  },
-}
+  created() {},
+  mounted() {},
+  methods: {},
+  computed: {},
+  watch: {},
+};
 </script>
 
 <style scoped>
-
 </style>
