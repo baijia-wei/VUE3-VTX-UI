@@ -1,5 +1,6 @@
 <template>
   <div>button组件</div>
+  <button>这个是应该按钮</button>
 </template>
 
 <script>
@@ -17,5 +18,5 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped >
 </style>
