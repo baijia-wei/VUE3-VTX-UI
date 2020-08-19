@@ -3,8 +3,6 @@
   <button @click="toggle" :class="{checked:value}">
     <span></span>
   </button>
-
-
 </template>
 
 <script lang="ts">
