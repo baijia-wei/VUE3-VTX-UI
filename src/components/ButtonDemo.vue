@@ -1,6 +1,7 @@
 <template>
   <div>button组件</div>
   <button class="button">这个是个按钮</button>
+  <input type="text" value="输入框" />
 </template>
 
 <script>
