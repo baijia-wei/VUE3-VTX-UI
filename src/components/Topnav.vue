@@ -18,6 +18,7 @@ export default {
     const toggleMenu = () => {
       menuVisible.value = !menuVisible.value;
     };
+
     return { toggleMenu };
   },
 };
@@ -58,6 +59,7 @@ export default {
     transform: translateX(-50%);
   }
   @media (max-width: 500px) {
+
     > .menu {
       display: none;
     }
