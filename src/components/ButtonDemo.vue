@@ -1,6 +1,9 @@
 <template>
   <div>button组件</div>
   <button class="button">这个是个按钮</button>
+  <button class="button">这个是个按钮</button>
+  <button class="button">这个是个按钮</button>
+  <button class="button">这个是个按钮</button>
 </template>
 
 <script>
