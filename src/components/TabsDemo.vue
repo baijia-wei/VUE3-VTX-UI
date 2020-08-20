@@ -1,21 +1,21 @@
 <template>
   <div>tabsdemo组件</div>
+
 </template>
 
 <script>
 export default {
-  data() {
-    return {
-      msg: "",
-    };
+  components() {},
+  setup() {
+    // 添加函数
+
+    return {  };
   },
-  created() {},
-  mounted() {},
-  methods: {},
-  computed: {},
-  watch: {},
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss" >
+
+
+
 </style>

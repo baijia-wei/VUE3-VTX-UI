@@ -1,6 +1,6 @@
 <template>
   <div class="layout">
-  
+
     <Topnav class="nav"/>
     <div class="content">
       <aside v-if="menuVisible">
@@ -23,7 +23,7 @@
       <main>
       <router-view>
       </main>
-      
+
     </div>
   </div>
 </template>
@@ -53,7 +53,7 @@ export default {
     padding-top: 60px;
     padding-left: 156px;
     @media (max-width: 500px) {
-      padding-left: 0; 
+      padding-left: 0;
     }
   }
 }
@@ -65,7 +65,7 @@ export default {
   > main {
     flex-grow: 1;
     padding: 16px;
-    background: lightgreen;
+    background: rgb(118, 255, 232);
   }
 }
 aside {
