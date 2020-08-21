@@ -13,10 +13,11 @@
 </template>
 
 <script>
+import { ref } from "vue";
 export default {
   components() {},
   setup() {
-    const indexT = 0;
+    let indexT = ref(0);
     // 添加函数
     const tablan = [
       {
@@ -33,12 +34,10 @@ export default {
       },
     ];
     const shijian = (index) => {
-
-      indexT = index;
+      indexT.value = index;
     };
 
-    return { tablan, indexT,shijian };
-
+    return { tablan, indexT, shijian };
   },
 };
 </script>
