@@ -65,7 +65,7 @@ export default {
   > main {
     flex-grow: 1;
     padding: 16px;
-    background: rgb(118, 255, 232);
+    background: rgb(241, 255, 253);
   }
 }
 aside {

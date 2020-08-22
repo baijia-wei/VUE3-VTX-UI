@@ -44,9 +44,12 @@ export default {
 
 <style scoped lang="scss" >
 .tab {
+  border:1px solid #f80707 ;
+    border-radius:5px;
   max-width: 375px;
+  background-color: aqua;
 
-  height: 30px;
+  height: 45px;
   display: flex;
   padding: 0 30px;
 
