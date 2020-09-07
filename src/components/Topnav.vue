@@ -4,24 +4,31 @@
     <ul class="menu">
       <li>菜单1</li>
       <li>菜单2</li>
+      <li>菜单3</li>
+      <li>菜单1</li>
+      <li>菜单2</li>
+      <li>菜单3</li>
+      <li>菜单1</li>
+      <li>菜单2</li>
+      <li>菜单3</li>
     </ul>
     <span class="toggleAside" @click="toggleMenu"></span>
   </div>
 </template>
 
 <script lang="ts">
-import { inject, Ref } from "vue";
+import { inject, Ref } from 'vue'
 export default {
   setup() {
-    const menuVisible = inject<Ref<boolean>>("xxx");
-    // topnav 获取的menuVisible为 +munuVisible.value
-    const toggleMenu = () => {
-      menuVisible.value = !menuVisible.value;
-    };
+    const menuVisible = inject<Ref<boolean>>('xxx')
 
-    return { toggleMenu };
+    const toggleMenu = () => {
+      menuVisible.value = !menuVisible.value
+    }
+
+    return { toggleMenu }
   },
-};
+}
 </script>
 
 <style scoped lang="scss">
@@ -59,7 +66,6 @@ export default {
     transform: translateX(-50%);
   }
   @media (max-width: 500px) {
-
     > .menu {
       display: none;
     }
