@@ -10,18 +10,17 @@
 </template>
 
 <script lang="ts">
-import { inject, Ref } from "vue";
+import { inject, ref, Ref } from 'vue'
 export default {
   setup() {
-    const menuVisible = inject<Ref<boolean>>("xxx");
-    // topnav 获取的menuVisible为 +munuVisible.value
+    const bool = ref(false)
+    const menuVisible = inject<Ref<boolean>>('xxx')
     const toggleMenu = () => {
-      menuVisible.value = !menuVisible.value;
-    };
-
-    return { toggleMenu };
+      menuVisible.value = !menuVisible.value
+    }
+    return { toggleMenu, bool }
   },
-};
+}
 </script>
 
 <style scoped lang="scss">
@@ -59,7 +58,6 @@ export default {
     transform: translateX(-50%);
   }
   @media (max-width: 500px) {
-
     > .menu {
       display: none;
     }

@@ -1,10 +1,10 @@
 <template>
   <div class="button-assembly">
-    <div>按钮类型</div>
+    <div class="font">按钮类型</div>
     <button class="button-a">主要类型</button>
     <button class="button-b">信息按钮</button>
     <button class="button-e">信息按钮</button>
-    <div>朴素按钮</div>
+    <div class="font">朴素按钮</div>
     <button class="button-c">信息按钮</button>
     <button class="button-d">信息按钮</button>
   </div>
@@ -20,7 +20,7 @@ export default {
 <style scoped lang="scss">
 .button-assembly {
   width: 400px;
-  background-color: aqua;
+
   .button-a,
   .button-e,
   .button-b,
@@ -46,8 +46,11 @@ export default {
     color: rgb(9, 185, 255);
   }
   .button-b {
-color: rgb(255, 255, 255);
- background: rgb(3, 129, 247);
+    color: rgb(255, 255, 255);
+    background: rgb(3, 129, 247);
+  }
+  .font{
+    color: rgb(206, 203, 203);
   }
 }
 </style>

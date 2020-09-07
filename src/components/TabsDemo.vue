@@ -13,41 +13,42 @@
 </template>
 
 <script>
-import { ref } from "vue";
+import { ref } from 'vue'
 export default {
   components() {},
   setup() {
-    let indexT = ref(0);
+    let indexT = ref(0)
+
     // 添加函数
     const tablan = [
       {
         id: 1,
-        shux: "托儿",
+        shux: '托儿',
       },
       {
         id: 2,
-        shux: "小林",
+        shux: '小林',
       },
       {
         id: 3,
-        shux: "康娜",
+        shux: '康娜',
       },
-    ];
+    ]
     const shijian = (index) => {
-      indexT.value = index;
-    };
+      indexT.value = index
+    }
 
-    return { tablan, indexT, shijian };
+    return { tablan, indexT, shijian }
   },
-};
+}
 </script>
 
 <style scoped lang="scss" >
 .tab {
-  border:1px solid #f80707 ;
-    border-radius:5px;
+  border: 1px solid #f80707;
+  border-radius: 5px;
   max-width: 375px;
-  background-color: aqua;
+  background-color: rgb(84, 151, 151);
 
   height: 45px;
   display: flex;
@@ -69,7 +70,7 @@ export default {
     font-weight: bold;
 
     &::before {
-      content: "";
+      content: '';
       width: 90%;
       margin: 0 auto;
       height: 4px;
